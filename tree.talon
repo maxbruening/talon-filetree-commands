@@ -25,7 +25,7 @@ tree create <user.letters>:
     user.run_rpc_command("talon-filetree.createFile", letters)
 tree delete <user.letters>:
     user.run_rpc_command("talon-filetree.deleteFile", letters)
-tree collapse root:
+tree collapse [root]:
     user.run_rpc_command("talon-filetree.collapseRoot")
 tree select <user.letters>:
     user.run_rpc_command("talon-filetree.select", letters)
